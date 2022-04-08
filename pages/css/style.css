@@ -656,6 +656,42 @@ header .topNav nav::after {
   --tw-content: '';
   content: var(--tw-content);
 }
+/* secondaryNav */
+header .secondaryNav {
+  left: -100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 172 228 / var(--tw-bg-opacity));
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+header .secondaryNav ul {
+  width: 294px;
+}
+header .secondaryNav ul li {
+  margin-bottom: 1.25rem;
+}
+header .secondaryNav ul li a {
+  font-family: Lato;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(15 172 228 / var(--tw-text-opacity));
+}
+header .secondaryNav ul li span {
+  margin-top: 0.75rem;
+  margin-left: 1.5rem;
+  display: block;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.025em;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+header .secondaryNav.is-active {
+  left: 0px;
+  background-color: rgb(15 35 61 / 0.9);
+}
 header .navbar-burger {
   position: relative;
   z-index: 50;
@@ -918,6 +954,9 @@ footer .imgDesempenho {
     width: 62vw;
   }
 }
+.fixed {
+  position: fixed;
+}
 .absolute {
   position: absolute;
 }
@@ -948,6 +987,9 @@ footer .imgDesempenho {
 .left-\[-3px\] {
   left: -3px;
 }
+.z-10 {
+  z-index: 10;
+}
 .z-\[1\] {
   z-index: 1;
 }
@@ -958,14 +1000,14 @@ footer .imgDesempenho {
 .ml-12 {
   margin-left: 3rem;
 }
+.mt-10 {
+  margin-top: 2.5rem;
+}
 .mb-6 {
   margin-bottom: 1.5rem;
 }
 .mb-4 {
   margin-bottom: 1rem;
-}
-.mt-10 {
-  margin-top: 2.5rem;
 }
 .mt-20 {
   margin-top: 5rem;
@@ -994,11 +1036,17 @@ footer .imgDesempenho {
 .h-4 {
   height: 1rem;
 }
+.h-auto {
+  height: auto;
+}
 .h-\[129px\] {
   height: 129px;
 }
 .h-16 {
   height: 4rem;
+}
+.min-h-full {
+  min-height: 100%;
 }
 .w-full {
   width: 100%;
@@ -1085,6 +1133,10 @@ footer .imgDesempenho {
 .gap-5 {
   gap: 1.25rem;
 }
+.gap-x-24 {
+  -moz-column-gap: 6rem;
+       column-gap: 6rem;
+}
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1099,11 +1151,20 @@ footer .imgDesempenho {
   --tw-bg-opacity: 1;
   background-color: rgb(15 172 228 / var(--tw-bg-opacity));
 }
+.bg-secondaryPath {
+  background-image: url('../svgs/path-secondary.svg');
+}
 .bg-desempenho {
-  background-image: url('../images/desempenho.jpg');
+  background-image: url('../images/desempenho.png');
 }
 .bg-auto {
   background-size: auto;
+}
+.bg-\[length\:auto_393px\] {
+  background-size: auto 393px;
+}
+.bg-left-top {
+  background-position: left top;
 }
 .bg-left {
   background-position: left;
@@ -1123,6 +1184,12 @@ footer .imgDesempenho {
 .py-16 {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+.pt-28 {
+  padding-top: 7rem;
+}
+.pb-14 {
+  padding-bottom: 3.5rem;
 }
 .pt-32 {
   padding-top: 8rem;
@@ -1149,6 +1216,9 @@ footer .imgDesempenho {
 .text-\[15px\] {
   font-size: 15px;
 }
+.text-\[11px\] {
+  font-size: 11px;
+}
 .text-\[50px\] {
   font-size: 50px;
 }
@@ -1162,9 +1232,6 @@ footer .imgDesempenho {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-.text-\[11px\] {
-  font-size: 11px;
 }
 .text-5xl {
   font-size: 3rem;
@@ -1369,6 +1436,10 @@ footer .imgDesempenho {
   .lg\:gap-x-20 {
     -moz-column-gap: 5rem;
          column-gap: 5rem;
+  }
+
+  .lg\:bg-auto {
+    background-size: auto;
   }
 
   .lg\:py-\[120px\] {

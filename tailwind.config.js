@@ -42,7 +42,8 @@ module.exports = {
             backgroundImage: {
                 navLeft: "url('../svgs/topnav-left.svg')",
                 navRight: "url('../svgs/topnav-right.svg')",
-                desempenho: "url('../images/desempenho.jpg')",
+                secondaryPath: "url('../svgs/path-secondary.svg')",
+                desempenho: "url('../images/desempenho.png')",
             },
             backgroundPosition: {
                 centerTop: 'center top',

@@ -76,6 +76,30 @@
             }
         }
 
+        /* secondaryNav */
+        .secondaryNav {
+            @apply -left-full 
+            bg-azul-light 
+            transition-all duration-500 ease-in-out;
+
+            ul {
+                @apply w-[294px];
+                li {
+                    @apply mb-5;
+                    a {
+                        @apply text-azul-light font-lato text-xl;
+                    }
+                    span {
+                        @apply block mt-3 ml-6 text-white tracking-wide text-xs;
+                    }
+                }
+            }
+        }
+
+        .secondaryNav.is-active {
+            @apply left-0 bg-azul/90;
+        }
+
         .navbar-burger {
             @apply relative transition-all duration-300 w-[23px] h-[23px] block z-50;
         }

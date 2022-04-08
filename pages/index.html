@@ -53,6 +53,69 @@
                     </nav>
                 </div>
             </nav>
+
+            <!-- secondaryNav -->
+            <section class="secondaryNav is-active min-h-full h-auto w-full fixed z-10">
+                <div class="relative w-full bg-secondaryPath bg-no-repeat bg-left-top bg-auto">
+                    <nav class="container pt-28 flex flex-row justify-start gap-x-24">
+                        <ul>
+                            <li>
+                                <a href="#">Sobre este relatório</a>
+                            </li>
+                            <li>
+                                <a href="#">Mensagem da Liderança</a>
+                            </li>
+                            <li>
+                                <a href="#">Portifólio de negócios</a>
+                            </li>
+                            <li>
+                                <a href="#">Perfil SIMPAR</a>
+                                <span>Empresas controladas/ aquisições</span>
+                            </li>
+                            <li>
+                                <a href="#">Destaques e Compromissos</a>
+                                <span>Breve texto introdutório e solução gráfica para realizações  e metas/compromissos públicos ESG/destaques socioambientais</span>
+                            </li>
+                            <li>
+                                <a href="#">Foco na transparência</a>
+                                <span>Governança/Programa de Conformidade</span>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li>
+                                <a href="#">Mudanças climáticas</a>
+                                <span>Destaque para descarbonização</span>
+                            </li>
+                            <li>
+                                <a href="#">Investimentos e desempenho</a>
+                                <span>Breve texto introdutório e solução gráfica com números</span>
+                            </li>
+                            <li><a href="">Materialidade</a></li>
+                            <li><a href="">Sumários GRI - SASB - TCFD</a></li>
+                            <li><a href="">Outros Indicadores</a></li>
+                            <li><a href="">Carta de Asseguração</a></li>
+                            <li><a href="">Expediente</a></li>
+                        </ul>
+                    </nav>
+
+                    <div class="container relative flex justify-start mt-10 pb-14 gap-6">
+                        <a href="#" class="group btn-ghost">
+                            <span class="group-hover:text-azul text-[11px]">Sumário Executivo</span>
+                            <svg class="group-hover:fill-azul-light" width="144" height="32" viewBox="0 0 144 32">
+                                <g clip-path="url(#a)"><path d="M133.926,2.442A6.822,6.822,0,0,0,131.115.589v0a6.251,6.251,0,0,0-2.05-.341L118.4.3,72.815.251H.256V18.237L.251,18.7,10.375,29.857a6.822,6.822,0,0,0,2.811,1.854v0a6.251,6.251,0,0,0,2.05.341L25.9,32l45.584.047v0h72.559V14.062l.005-.462Z" transform="translate(-0.15 -0.15)" stroke="#0FACE4" stroke-miterlimit="10" stroke-width="2"/></g>
+                            </svg>
+                        </a>
+
+                        <a href="#" class="group btn-ghost">
+                            <span class="group-hover:text-azul text-[11px]">Relatório completo</span>
+                            <svg class="group-hover:fill-azul-light" width="144" height="32" viewBox="0 0 144 32">
+                                <g clip-path="url(#a)"><path d="M133.926,2.442A6.822,6.822,0,0,0,131.115.589v0a6.251,6.251,0,0,0-2.05-.341L118.4.3,72.815.251H.256V18.237L.251,18.7,10.375,29.857a6.822,6.822,0,0,0,2.811,1.854v0a6.251,6.251,0,0,0,2.05.341L25.9,32l45.584.047v0h72.559V14.062l.005-.462Z" transform="translate(-0.15 -0.15)" stroke="#0FACE4" stroke-miterlimit="10" stroke-width="2"/></g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
         </header>
 
         <main class="relative pt-32">
@@ -257,7 +320,7 @@
                     </div>
 
                     <!-- Imagem -->
-                    <div class="imgDesempenho bg-desempenho bg-left bg-auto bg-no-repeat">
+                    <div class="imgDesempenho bg-desempenho bg-left bg-[length:auto_393px] lg:bg-auto bg-no-repeat">
 
                     </div>
 
@@ -294,7 +357,7 @@
             });
             function toggleMenu() {
                 $(".navbar-burger").toggleClass("is-active");
-                $(".sideMenu").toggleClass("is-active");
+                $(".secondaryNav").toggleClass("is-active");
                 setTimeout(function () {
                     console.log("exibir menu");
                 }, 200);
