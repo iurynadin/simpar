@@ -672,13 +672,21 @@ header .secondaryNav ul li {
   margin-bottom: 1.25rem;
 }
 header .secondaryNav ul li a {
+  display: block;
   font-family: Lato;
   font-size: 1.25rem;
   line-height: 1.75rem;
   --tw-text-opacity: 1;
   color: rgb(15 172 228 / var(--tw-text-opacity));
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
 }
-header .secondaryNav ul li span {
+header .secondaryNav ul li a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+header .secondaryNav ul li a span {
   margin-top: 0.75rem;
   margin-left: 1.5rem;
   display: block;
@@ -1133,9 +1141,9 @@ footer .imgDesempenho {
 .gap-5 {
   gap: 1.25rem;
 }
-.gap-x-24 {
-  -moz-column-gap: 6rem;
-       column-gap: 6rem;
+.gap-x-28 {
+  -moz-column-gap: 7rem;
+       column-gap: 7rem;
 }
 .overflow-hidden {
   overflow: hidden;
@@ -1187,6 +1195,9 @@ footer .imgDesempenho {
 }
 .pt-28 {
   padding-top: 7rem;
+}
+.pl-48 {
+  padding-left: 12rem;
 }
 .pb-14 {
   padding-bottom: 3.5rem;

@@ -87,10 +87,10 @@
                 li {
                     @apply mb-5;
                     a {
-                        @apply text-azul-light font-lato text-xl;
-                    }
-                    span {
-                        @apply block mt-3 ml-6 text-white tracking-wide text-xs;
+                        @apply text-azul-light font-lato text-xl block duration-300 transition-all hover:text-white;
+                        span {
+                            @apply block mt-3 ml-6 text-white tracking-wide text-xs;
+                        }
                     }
                 }
             }
