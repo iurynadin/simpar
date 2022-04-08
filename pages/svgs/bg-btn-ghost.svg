@@ -1,0 +1,10 @@
+<svg id="bg-button-saibamais" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144" height="32" viewBox="0 0 144 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_34" data-name="Rectangle 34" width="144" height="32" fill="#0f233d"/>
+    </clipPath>
+  </defs>
+  <g id="Group_110" data-name="Group 110" clip-path="url(#clip-path)">
+    <path id="Path_76" data-name="Path 76" d="M133.926,2.442A6.822,6.822,0,0,0,131.115.589v0a6.251,6.251,0,0,0-2.05-.341L118.4.3,72.815.251H.256V18.237L.251,18.7,10.375,29.857a6.822,6.822,0,0,0,2.811,1.854v0a6.251,6.251,0,0,0,2.05.341L25.9,32l45.584.047v0h72.559V14.062l.005-.462Z" transform="translate(-0.15 -0.15)" fill="#0f233d"/>
+  </g>
+</svg>
