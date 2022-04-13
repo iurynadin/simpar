@@ -9,11 +9,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/style.css?v=0.9.1" />
+        <link rel="stylesheet" type="text/css" href="css/style.css?v=0.9.3" />
     </head>
     <body class="w-full">
         <!-- Sómente para identificar breakpoint. Remover em produção -->
-        <div class="bpvisor"><p></p></div>
+        <!-- <div class="bpvisor"><p></p></div> -->
         <header id="topo">
             <nav class="topNav">
                 <div class="navHolder">
@@ -55,16 +55,14 @@
             </nav>
 
             <!-- secondaryNav -->
-            <section class="absolute inset-0 secondaryNav min-h-[100vh] h-full w-full sm:fixed z-10">
+            <section class="secondaryNav">
 
-                <div class="relative min-h-full h-full sm:h-auto w-9/12 mx-auto sm:mx-0 sm:w-full md:bg-secondaryPath bg-no-repeat md:bg-[right_5vw_top_0] lg:bg-[right_20vw_top_0] xl:bg-left-top bg-auto pt-24 sm:pt-28 lg:pl-20 xl:pl-48 overflow-scroll">
+                <div class="secondaryNav__holder">
 
-                    <nav class="container flex flex-col sm:flex-row justify-start gap-x-28 min-h-full h-auto">
-
+                    <nav>
                         <div class="flex flex-col items-center text-center w-full sm:hidden">
                             <h3 class="text-white font-light text-[21px] leading-none">Relatório Anual de<br>Susutentabilidade <span class="font-bold text-azul-light">2021</span></h3>
 
-                            
                             <div class="flex-row items-center justify-end gap-12 flex my-6">
                                 <a href="#" class="flex fex-row items-center text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
                                     <span><img src="svgs/ico-download.svg" class="w-[15px]" alt=""></span>

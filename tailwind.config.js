@@ -23,6 +23,8 @@ module.exports = {
             colors: {
                 "azul": "#0F233D",
                 "azul-light": "#0FACE4",
+                "azul-baby": "#E0F4FB",
+                "light-grey": "#F8F8F8"
             },
             fontFamily: {
                 montserrat: ["Montserrat"],
@@ -34,6 +36,7 @@ module.exports = {
             },
             width: {
                 'desempenho-xl': 'calc(100vw - 600px)',
+                'heroInternShadow': 'calc(50% + 16px)',
             },
             aspectRatio: {
                 hero: '17 / 10',
@@ -44,10 +47,17 @@ module.exports = {
                 navRight: "url('../svgs/topnav-right.svg')",
                 secondaryPath: "url('../svgs/path-secondary.svg')",
                 desempenho: "url('../images/desempenho.png')",
+                destaques: "url('../images/destaques.jpg')",
+                mudancasclimaticas: "url('../images/mudancas-climaticas.jpg')",
+
+                heroInternPath: "url('../svgs/bg-interna-path.svg')",
+                metaItemPath: "url('../svgs/path-meta.svg')",
+                featuredItemPath: "url('../svgs/path-featured.svg')",
             },
             backgroundPosition: {
                 centerTop: 'center top',
                 centerBottom: 'center bottom',
+                heroPathxs: 'left -150px top 0',
             },
             backgroundSize: {
             }
