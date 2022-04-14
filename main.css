@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 @layer components {
+    @charset "UTF-8";
+
     body {
         @apply bg-azul font-montserrat w-full;
     }
@@ -222,6 +224,16 @@
         }
     }
 
+    .textBlock {
+        p {
+            @apply mb-4 text-azul;
+        }
+
+        p.featured {
+            @apply border-t-2 border-b-2 border-azul-light bg-transparent p-5 sm:p-8 my-10 sm:my-12 w-full sm:w-10/12 mx-auto text-lg sm:text-2xl font-medium leading-normal text-azul-light;
+        }
+    }
+
     footer {
         .footer__light {
             .footer__corte {
@@ -304,6 +316,31 @@
             &:after {
                 @apply content-[''] left-0 bottom-0 w-full h-[62px] absolute bg-featuredItemPath bg-[length:auto_62px] bg-right-bottom;
             }
+        }
+    }
+
+    .portfolio {
+        &__item {
+            @apply relative flex flex-row justify-start items-start pb-6 mx-auto w-full min-h-[80px] mb-10 pr-10;
+
+            img {
+            }
+
+            h3 {
+                @apply text-azul text-xl md:text-[24px] font-montserrat font-bold leading-none mb-[5px];
+            }
+
+            p {
+                @apply text-azul-light text-lg font-semibold leading-none;
+            }
+
+            &:after {
+                @apply content-[''] left-0 bottom-0 w-full h-[62px] absolute bg-featuredItemPath bg-[length:auto_62px] bg-right-bottom;
+            }
+        }
+
+        &__iconholder {
+            @apply border-[6px] sm:border-8 border-azul-light rounded-full w-14 h-14 sm:w-20 sm:h-20 flex justify-center items-center flex-shrink-0 mr-4;
         }
     }
 }

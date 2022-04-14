@@ -4,6 +4,7 @@ class HeaderElement extends HTMLElement {
     }
     connectedCallback() {
         this.innerHTML = `
+            <div class="bpvisor"><p></p></div>
             <header id="topo">
                 <nav class="topNav">
                     <div class="navHolder">
@@ -80,10 +81,10 @@ class HeaderElement extends HTMLElement {
                                     <a href="#" class="group">Sobre este relatório</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="group">Mensagem da Liderança</a>
+                                    <a href="mensagem-da-lideranca.html" class="group">Mensagem da Liderança</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="group">Portifólio de negócios</a>
+                                    <a href="portfolio-de-negocios.html" class="group">Portifólio de negócios</a>
                                 </li>
                                 <li>
                                     <a href="#" class="group">
@@ -98,7 +99,7 @@ class HeaderElement extends HTMLElement {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="group">
+                                    <a href="foco-na-transparencia.html" class="group">
                                         Foco na transparência
                                         <span>Governança/Programa de Conformidade</span>
                                     </a>
