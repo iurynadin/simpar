@@ -2,9 +2,9 @@ class HeaderElement extends HTMLElement {
     constructor() {
         super(); 
     }
+    /* <div class="bpvisor"><p></p></div> */
     connectedCallback() {
         this.innerHTML = `
-            <div class="bpvisor"><p></p></div>
             <header id="topo">
                 <nav class="topNav">
                     <div class="navHolder">
