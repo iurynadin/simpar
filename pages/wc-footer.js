@@ -4,6 +4,10 @@ class FooterElement extends HTMLElement {
     }
     connectedCallback() {
 
+        const backText = (this.getAttribute('lang')) ? 'Back to top' : 'Voltar ao topo';
+        const reportText = (this.getAttribute('lang')) ? 'Integrated Annual Report' : 'Relatório Anual e de Sustentabilidade';
+        const reportLink = (this.getAttribute('lang')) ? '#' : '#';
+
         if(this.getAttribute('template') == 'interna') {
             this.innerHTML = `
                 <footer class="relative w-full">
@@ -12,7 +16,7 @@ class FooterElement extends HTMLElement {
 
                         <div class="container flex flex-row flex-wrap sm:flex-nowrap justify-between items-center">
                             <div class="flex flex-row items-center justify-start mb-6 sm:mb-0 gap-7 w-full sm:w-[60px] md:w-[330px] lg:w-auto">
-                                <a href="#" class="flex fex-row items-center text-azul hover:text-azul duration-300 transition-all font-montserrat font-medium text-[15px] gap-[5px]">
+                                <a href="${reportLink}" class="flex fex-row items-center text-azul hover:text-azul duration-300 transition-all font-montserrat font-medium text-[15px] gap-[5px]">
                                     <span>
                                         <svg xmlns="http://www.w3.org/2000/svg" class="w-[15px] fill-azul-light" viewBox="0 0 15.056 15.27">
                                             <path id="ico-download" d="M17.174,14.5v2.863H5.882V14.5H4v2.863A1.9,1.9,0,0,0,5.882,19.27H17.174a1.9,1.9,0,0,0,1.882-1.909V14.5Zm-.941-3.817L14.906,9.335,12.469,11.8V4H10.587v7.8L8.15,9.335,6.823,10.681l4.705,4.772Z" transform="translate(-4 -4)"/>
@@ -20,7 +24,7 @@ class FooterElement extends HTMLElement {
                                     </span>
                                     PDF
                                 </a>
-                                <span class="sm:hidden md:block md:visible font-montserrat text-xs text-azul font-thin">Relatório Anual de Sustentabilidade <span class="font-semibold text-azul-light">2021</span></span>
+                                <span class="sm:hidden md:block md:visible font-montserrat text-xs text-azul font-thin">${reportText} <span class="font-semibold text-azul-light">2021</span></span>
                             </div>
 
                             <img src="svgs/logo-footer-interna.svg" class="w-[94px] xl:mr-28" alt="Logo Simpar">
@@ -30,7 +34,7 @@ class FooterElement extends HTMLElement {
                                     <defs><clipPath id="a"><path d="M0,30.274H16.084V0H0Z" fill="none" stroke="#0f233d" stroke-width="1"/></clipPath></defs>
                                     <g clip-path="url(#a)"><g transform="translate(0.945 0.946)"><path d="M14.192,28.381,0,14.19,14.192,0" transform="translate(0 0)" fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></g></g>
                                 </svg>
-                                <span class="font-bold text-xs text-azul-light group-hover:text-azul duration-300 transition-all">voltar ao topo</span>
+                                <span class="font-bold text-xs text-azul-light group-hover:text-azul duration-300 transition-all">${backText}</span>
                             </a>
                         </div>
                             
@@ -65,7 +69,7 @@ class FooterElement extends HTMLElement {
     
                         <div class="container flex flex-row flex-wrap sm:flex-nowrap justify-between items-center">
                             <div class="flex flex-row items-center justify-start mb-6 sm:mb-0 gap-7 w-full sm:w-[60px] md:w-[330px] lg:w-auto">
-                                <a href="#" class="flex fex-row items-center text-white hover:text-azul duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
+                                <a href="${reportLink}" class="flex fex-row items-center text-white hover:text-azul duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
                                     <span>
                                         <svg xmlns="http://www.w3.org/2000/svg" class="w-[15px] fill-azul" viewBox="0 0 15.056 15.27">
                                             <path id="ico-download" d="M17.174,14.5v2.863H5.882V14.5H4v2.863A1.9,1.9,0,0,0,5.882,19.27H17.174a1.9,1.9,0,0,0,1.882-1.909V14.5Zm-.941-3.817L14.906,9.335,12.469,11.8V4H10.587v7.8L8.15,9.335,6.823,10.681l4.705,4.772Z" transform="translate(-4 -4)"/>
@@ -73,7 +77,7 @@ class FooterElement extends HTMLElement {
                                     </span>
                                     PDF
                                 </a>
-                                <span class="sm:hidden md:block md:visible font-montserrat text-xs text-azul font-thin">Relatório Anual de Sustentabilidade <span class="font-semibold">2021</span></span>
+                                <span class="sm:hidden md:block md:visible font-montserrat text-xs text-azul font-thin">${reportText} <span class="font-semibold">2021</span></span>
                             </div>
     
                             <!-- Imagem -->
@@ -88,7 +92,7 @@ class FooterElement extends HTMLElement {
                                     <defs><clipPath id="a"><path d="M0,30.274H16.084V0H0Z" fill="none" stroke="#0f233d" stroke-width="1"/></clipPath></defs>
                                     <g clip-path="url(#a)"><g transform="translate(0.945 0.946)"><path d="M14.192,28.381,0,14.19,14.192,0" transform="translate(0 0)" fill="none" stroke="" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></g></g>
                                 </svg>
-                                <span class="font-bold text-xs group-hover:text-white duration-300 transition-all">voltar ao topo</span>
+                                <span class="font-bold text-xs group-hover:text-white duration-300 transition-all">${backText}</span>
                             </a>
                         </div>
                             
