@@ -7,6 +7,10 @@ class FooterElement extends HTMLElement {
         const backText = (this.getAttribute('lang')) ? 'Back to top' : 'Voltar ao topo';
         const reportText = (this.getAttribute('lang')) ? 'Integrated Annual Report' : 'Relatório Anual e de Sustentabilidade';
         const reportLink = (this.getAttribute('lang')) ? '#' : '#';
+        const desempenhoLink = (this.getAttribute('lang')) ? 'investimentos-e-desempenho-en.html' : 'investimentos-e-desempenho.html';
+        const desempenhoLabel = (this.getAttribute('lang')) ? 'Read More' : 'Saiba Mais';
+        const desempenhoTitle = (this.getAttribute('lang')) ? 'Performance' : 'Desempenho';
+        const desempenhoExcerpt = (this.getAttribute('lang')) ? 'Predictable and robust sustainable growth set the tone at SIMPAR in 2021' : 'Crescimento sustentável, com previsibilidade e solidez, ditou os rumos de 2021 na SIMPAR';
 
         if(this.getAttribute('template') == 'interna') {
             this.innerHTML = `
@@ -47,13 +51,13 @@ class FooterElement extends HTMLElement {
                 <footer class="relative w-full">
                     <div class="container">
                         <img src="svgs/ico-desempenho.svg" class="md:w-[102px] lg:w-[142px] ml-[59px]" alt="Icone desempenho 2021">
-                        <h3 class="text-azul-light font-lato text-5xl md:text-[50px] lg:text-[68px] font-bold leading-none mb-8">Desempenho<span class="block text-white">2021</span></h3>
+                        <h3 class="text-azul-light font-lato text-5xl md:text-[50px] lg:text-[68px] font-bold leading-none mb-8">${desempenhoTitle}<span class="block text-white">2021</span></h3>
                         
-                        <p class="text-white text-xl font-light w-full sm:w-[352px]">Crescimento sustentável, com previsibilidade e solidez, ditou os rumos de 2021 na SIMPAR</p>
+                        <p class="text-white text-xl font-light w-full sm:w-[352px]">${desempenhoExcerpt}</p>
     
                         <div class="relative flex justify-start my-10">
-                            <a href="investimentos-e-desempenho.html" class="group btn-ghost">
-                                <span class="group-hover:text-azul text-sm">Saiba Mais</span>
+                            <a href="${desempenhoLink}" class="group btn-ghost">
+                                <span class="group-hover:text-azul text-sm">${desempenhoLabel}</span>
                                 <svg class="group-hover:fill-azul-light" width="144" height="32" viewBox="0 0 144 32">
                                     <g clip-path="url(#a)"><path d="M133.926,2.442A6.822,6.822,0,0,0,131.115.589v0a6.251,6.251,0,0,0-2.05-.341L118.4.3,72.815.251H.256V18.237L.251,18.7,10.375,29.857a6.822,6.822,0,0,0,2.811,1.854v0a6.251,6.251,0,0,0,2.05.341L25.9,32l45.584.047v0h72.559V14.062l.005-.462Z" transform="translate(-0.15 -0.15)" stroke="#0FACE4" stroke-miterlimit="10" stroke-width="2"/></g>
                                 </svg>

@@ -118,7 +118,7 @@ class HeaderElement extends HTMLElement {
                                         <span>Breve texto introdutório e solução gráfica com números</span>
                                     </a>
                                 </li>
-                                <li><a href="">Materiality</a></li>
+                                <li><a href="materialidade-en.html">Materiality</a></li>
                                 <li><a href="">GRI | SASB | TCFD  Content Index</a></li>
                                 <li><a href="">Outros Indicadores</a></li>
                                 <li><a href="">Assurance letter</a></li>
