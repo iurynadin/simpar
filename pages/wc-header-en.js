@@ -81,21 +81,20 @@ class HeaderElement extends HTMLElement {
                                     <a href="#" class="group">Sobre este relatório</a>
                                 </li>
                                 <li>
-                                    <a href="mensagem-da-lideranca.html" class="group">Mensagem da Liderança</a>
+                                    <a href="mensagem-da-lideranca-en.html" class="group">A word from our leadership</a>
                                 </li>
                                 <li>
-                                    <a href="portfolio-de-negocios.html" class="group">Portifólio de negócios</a>
+                                    <a href="portfolio-de-negocios-en.html" class="group">Business portfolio</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="group">
-                                        Perfil SIMPAR
-                                        <span>Empresas controladas/ aquisições</span>
+                                    <a href="perfil-simpar-en.html" class="group">
+                                        Valuing our people
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="destaques-e-compromissos.html" class="group">
-                                        Destaques e Compromissos
-                                        <span>Breve texto introdutório e solução gráfica para realizações  e metas/compromissos públicos ESG/destaques socioambientais</span>
+                                    <a href="destaques-e-compromissos-en.html" class="group">
+                                    2021 at a glance
+                                        <span>A summary of leading developments for our priority ESG topics</span>
                                     </a>
                                 </li>
                                 <li>
@@ -108,22 +107,22 @@ class HeaderElement extends HTMLElement {
 
                             <ul>
                                 <li>
-                                    <a href="mudancas-climaticas.html" class="group">
-                                        Mudanças climáticas
+                                    <a href="mudancas-climaticas-en.html" class="group">
+                                        Climate change
                                         <span>Destaque para descarbonização</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="group">
-                                        Investimentos e desempenho
+                                    <a href="investimentos-e-desempenho-en.html" class="group">
+                                        Investments and performance
                                         <span>Breve texto introdutório e solução gráfica com números</span>
                                     </a>
                                 </li>
-                                <li><a href="">Materialidade</a></li>
-                                <li><a href="">Sumários GRI - SASB - TCFD</a></li>
+                                <li><a href="">Materiality</a></li>
+                                <li><a href="">GRI | SASB | TCFD  Content Index</a></li>
                                 <li><a href="">Outros Indicadores</a></li>
-                                <li><a href="">Carta de Asseguração</a></li>
-                                <li><a href="">Expediente</a></li>
+                                <li><a href="">Assurance letter</a></li>
+                                <li><a href="">Credits</a></li>
                             </ul>
                         </nav>
 

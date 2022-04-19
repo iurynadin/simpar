@@ -283,6 +283,28 @@
         }
     }
 
+    .instanciasgrid {
+        @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 py-2 px-6;
+
+        &__item {
+            @apply relative bg-white p-5  hover:scale-110 hover:bg-azul-light duration-300 transition-all;
+/*             border-t-4 border-azul-light
+ */
+            h4{
+                @apply font-bold text-lg leading-none text-azul text-center border-b pb-2 mb-2 border-gray-200 ;
+            }
+        }
+
+        &__icon {
+            @apply absolute w-[52px] h-[52px] bg-azul rounded-full z-[1] left-1/2 -translate-x-1/2 -top-6 flex justify-center items-center;
+        }
+        
+        &__parag {
+            @apply text-azul-light font-bold leading-tight text-center  duration-300 transition-all;
+        }
+
+    }
+
     .metagrid {
         &__item {
             @apply relative flex flex-row justify-start items-start pb-6 mx-auto w-11/12 sm:w-full min-h-[136px];
@@ -295,6 +317,40 @@
                 @apply content-[''] left-0 bottom-0 w-[110px] h-[62px] absolute bg-metaItemPath;
             }
         }
+    }
+
+    .fusoesgrid {
+        &__item {
+            @apply relative flex flex-row flex-wrap xl:flex-nowrap justify-start items-start pb-6 mx-auto w-11/12 sm:w-full lg:min-h-[136px] mb-10;
+
+            p {
+                @apply text-azul text-sm;
+            }
+
+            &:after {
+                @apply content-[''] left-0 bottom-0 w-full h-[62px] absolute bg-featuredItemPath bg-[length:auto_62px] bg-right-bottom;
+            }
+            
+            ul{
+                @apply ml-2 text-azul-light;
+    
+                li {
+                    @apply text-azul font-semibold mb-1;
+                    &::before {
+                        @apply content-['\2022'] text-azul-light font-semibold mr-2;
+                    }
+                }
+            }
+        }
+
+        &__logo{
+            @apply w-[136px] flex-shrink-0 mr-4;
+
+            img{
+                @apply w-full mr-4 mb-4 xl:mb-0
+            }
+        }
+
     }
 
     .destaquesgrid {

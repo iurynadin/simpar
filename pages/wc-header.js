@@ -2,9 +2,9 @@ class HeaderElement extends HTMLElement {
     constructor() {
         super(); 
     }
+    /* <div class="bpvisor"><p></p></div> */
     connectedCallback() {
         this.innerHTML = `
-            <div class="bpvisor"><p></p></div>
             <header id="topo">
                 <nav class="topNav">
                     <div class="navHolder">
@@ -87,7 +87,7 @@ class HeaderElement extends HTMLElement {
                                     <a href="portfolio-de-negocios.html" class="group">Portifólio de negócios</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="group">
+                                    <a href="perfil-simpar.html" class="group">
                                         Perfil SIMPAR
                                         <span>Empresas controladas/ aquisições</span>
                                     </a>
@@ -114,12 +114,12 @@ class HeaderElement extends HTMLElement {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#" class="group">
+                                    <a href="investimentos-e-desempenho.html" class="group">
                                         Investimentos e desempenho
                                         <span>Breve texto introdutório e solução gráfica com números</span>
                                     </a>
                                 </li>
-                                <li><a href="">Materialidade</a></li>
+                                <li><a href="materialidade.html">Materialidade</a></li>
                                 <li><a href="">Sumários GRI - SASB - TCFD</a></li>
                                 <li><a href="">Outros Indicadores</a></li>
                                 <li><a href="">Carta de Asseguração</a></li>
