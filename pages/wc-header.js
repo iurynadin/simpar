@@ -28,12 +28,11 @@ class HeaderElement extends HTMLElement {
                                 </a>
 
                                 <div class="flex flex-row items-center justify-end gap-[7px]">
-                                    <a href="#" class="flex fex-row items-center text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
+                                    <a href="index-en.html" class="flex fex-row items-center text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
                                         <span><img src="svgs/ico-lang.svg" class="w-[15px]" alt=""></span>
                                         EN
                                     </a>
-                                    <a href="#" class="text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px]">PT</a>
-                                    <a href="#" class="text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px]">ES</a>
+                                    <a href="index.html" class="text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px]">PT</a>
                                 </div>
 
                                 <a href="#" class="flex fex-row items-center text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
@@ -52,7 +51,7 @@ class HeaderElement extends HTMLElement {
 
                         <nav>
                             <div class="flex flex-col items-center text-center w-full sm:hidden">
-                                <h3 class="text-white font-light text-[21px] leading-none">Relatório Anual de<br>Susutentabilidade <span class="font-bold text-azul-light">2021</span></h3>
+                                <h3 class="font-light text-[21px] leading-none"><span class="text-white">Relatório Anual de<br>Sustentabilidade</span> <span class="font-bold text-azul-light">2021</span></h3>
 
                                 <div class="flex-row items-center justify-end gap-12 flex my-6">
                                     <a href="#" class="flex fex-row items-center text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
@@ -61,12 +60,11 @@ class HeaderElement extends HTMLElement {
                                     </a>
 
                                     <div class="flex flex-row items-center justify-end gap-x-3">
-                                        <a href="#" class="flex fex-row items-center text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
+                                        <a href="index-en.html" class="flex fex-row items-center text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
                                             <span><img src="svgs/ico-lang.svg" class="w-[15px]" alt=""></span>
                                             EN
                                         </a>
-                                        <a href="#" class="text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px]">PT</a>
-                                        <a href="#" class="text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px]">ES</a>
+                                        <a href="index.html" class="text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px]">PT</a>
                                     </div>
 
                                     <a href="#" class="flex fex-row items-center text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
