@@ -3,6 +3,11 @@ class HeaderElement extends HTMLElement {
         super(); 
     }
     /* <div class="bpvisor"><p></p></div> */
+
+    // <li><a href="">Sumários GRI - SASB - TCFD</a></li>
+    // <li><a href="">Outros Indicadores</a></li>
+    // <li><a href="">Carta de Asseguração</a></li>
+    // <li><a href="">Expediente</a></li>
     connectedCallback() {
         this.innerHTML = `
             <header id="topo">
@@ -20,11 +25,11 @@ class HeaderElement extends HTMLElement {
                                     <img src="svgs/logo-header.svg" class="ml-12 sm:ml-32 md:ml-0 w-[121px]" alt="">
                                 </a>
 
-                                <span class="hidden md:block md:visible font-montserrat text-xs text-azul font-thin">Relatório Anual de Sustentabilidade <span class="text-azul-light font-semibold">2021</span></span>
+                                <span class="hidden md:block md:visible font-montserrat text-xs text-azul font-thin">Relatório Anual Integrado <span class="text-azul-light font-semibold">2021</span></span>
                             </div>
 
                             <div class="flex-row items-center justify-end gap-6 hidden md:flex md:visible">
-                                <a href="#" class="flex fex-row items-center text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
+                                <a href="pdfs/Simpar_RS2021_1.pdf" target="_blank" class="flex fex-row items-center text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
                                     <span><img src="svgs/ico-download.svg" class="w-[15px]" alt=""></span>
                                     PDF
                                 </a>
@@ -37,7 +42,7 @@ class HeaderElement extends HTMLElement {
                                     <a href="index.html" class="text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px]">PT</a>
                                 </div>
 
-                                <a href="#" class="flex fex-row items-center text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
+                                <a href="audios/roteiro-pt.wav" target="_blank" class="flex fex-row items-center text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
                                     <span><img src="svgs/ico-audio.svg" class="w-[16px]" alt=""></span>
                                     Áudio
                                 </a>
@@ -56,7 +61,7 @@ class HeaderElement extends HTMLElement {
                                 <h3 class="font-light text-[21px] leading-none"><span class="text-white">Relatório Anual de<br>Sustentabilidade</span> <span class="font-bold text-azul-light">2021</span></h3>
 
                                 <div class="flex-row items-center justify-end gap-12 flex my-6">
-                                    <a href="#" class="flex fex-row items-center text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
+                                    <a href="pdfs/Simpar_RS2021_1.pdf" target="_blank" class="flex fex-row items-center text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
                                         <span><img src="svgs/ico-download.svg" class="w-[15px]" alt=""></span>
                                         PDF
                                     </a>
@@ -69,7 +74,7 @@ class HeaderElement extends HTMLElement {
                                         <a href="index.html" class="text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px]">PT</a>
                                     </div>
 
-                                    <a href="#" class="flex fex-row items-center text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
+                                    <a href="audios/roteiro-pt.wav" target="_blank" class="flex fex-row items-center text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
                                         <span><img src="svgs/ico-audio.svg" class="w-[16px]" alt=""></span>
                                         Áudio
                                     </a>
@@ -77,9 +82,7 @@ class HeaderElement extends HTMLElement {
                             </div>
 
                             <ul>
-                                <li>
-                                    <a href="#">Sobre este relatório</a>
-                                </li>
+                                
                                 <li>
                                     <a href="mensagem-da-lideranca.html">Palavra da Liderança</a>
                                 </li>
@@ -91,30 +94,19 @@ class HeaderElement extends HTMLElement {
                                 <li>
                                     <a href="destaques-e-compromissos.html">Destaques e Compromissos</a>
                                 </li>
-                                <li>
-                                    <a href="foco-na-transparencia.html"> Foco na transparência </a> </li>
-                            </ul>
-
+                                </ul>
+                                
                             <ul>
+                                <li> <a href="foco-na-transparencia.html"> Foco na transparência </a> </li>
                                 <li><a href="mudancas-climaticas.html"> Mudanças climáticas </a> </li>
                                 <li><a href="investimentos-e-desempenho.html"> Investimentos e desempenho </a> </li>
                                 <li><a href="materialidade.html">Materialidade</a></li>
-                                <li><a href="">Sumários GRI - SASB - TCFD</a></li>
-                                <li><a href="">Outros Indicadores</a></li>
-                                <li><a href="">Carta de Asseguração</a></li>
-                                <li><a href="">Expediente</a></li>
+                                
                             </ul>
                         </nav>
 
                         <div class="container relative flex justify-start mt-10 pb-14 gap-6">
-                            <a href="#" class="group btn-ghost">
-                                <span class="group-hover:text-azul text-[11px]">Sumário Executivo</span>
-                                <svg class="group-hover:fill-azul-light" width="144" height="32" viewBox="0 0 144 32">
-                                    <path d="M133.926,2.442A6.822,6.822,0,0,0,131.115.589v0a6.251,6.251,0,0,0-2.05-.341L118.4.3,72.815.251H.256V18.237L.251,18.7,10.375,29.857a6.822,6.822,0,0,0,2.811,1.854v0a6.251,6.251,0,0,0,2.05.341L25.9,32l45.584.047v0h72.559V14.062l.005-.462Z" transform="translate(-0.15 -0.15)" stroke="#0FACE4" stroke-miterlimit="10" stroke-width="2"/>
-                                </svg>
-                            </a>
-
-                            <a href="#" class="group btn-ghost">
+                            <a href="pdfs/Simpar_RS2021_1.pdf" target="_blank" class="group btn-ghost">
                                 <span class="group-hover:text-azul text-[11px]">Relatório completo</span>
                                 <svg class="group-hover:fill-azul-light" width="144" height="32" viewBox="0 0 144 32">
                                     <path d="M133.926,2.442A6.822,6.822,0,0,0,131.115.589v0a6.251,6.251,0,0,0-2.05-.341L118.4.3,72.815.251H.256V18.237L.251,18.7,10.375,29.857a6.822,6.822,0,0,0,2.811,1.854v0a6.251,6.251,0,0,0,2.05.341L25.9,32l45.584.047v0h72.559V14.062l.005-.462Z" transform="translate(-0.15 -0.15)" stroke="#0FACE4" stroke-miterlimit="10" stroke-width="2"/>

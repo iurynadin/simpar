@@ -5,7 +5,7 @@ class FooterElement extends HTMLElement {
     connectedCallback() {
 
         const backText = (this.getAttribute('lang')) ? 'Back to top' : 'Voltar ao topo';
-        const reportText = (this.getAttribute('lang')) ? 'Integrated Annual Report' : 'Relatório Anual e de Sustentabilidade';
+        const reportText = (this.getAttribute('lang')) ? 'Integrated Annual Report' : 'Relatório Anual Integrado';
         const reportLink = (this.getAttribute('lang')) ? '#' : '#';
         const desempenhoLink = (this.getAttribute('lang')) ? 'investimentos-e-desempenho-en.html' : 'investimentos-e-desempenho.html';
         const desempenhoLabel = (this.getAttribute('lang')) ? 'Read More' : 'Saiba Mais';
@@ -85,7 +85,7 @@ class FooterElement extends HTMLElement {
                             </div>
     
                             <!-- Imagem -->
-                            <div class="imgDesempenho bg-desempenho bg-left bg-[length:auto_393px] lg:bg-auto bg-no-repeat">
+                            <div class="imgDesempenho bg-investimentos bg-left bg-cover lg:bg-auto bg-no-repeat rounded-bl-[258px] lg:rounded-bl-[340px]">
     
                             </div>
     
