@@ -2650,6 +2650,14 @@ ul.ulFeatured li::before {
     font-size: 68px;
   }
 
+  .lg\:text-\[62px\] {
+    font-size: 62px;
+  }
+
+  .lg\:text-\[58px\] {
+    font-size: 58px;
+  }
+
   .lg\:leading-tight {
     line-height: 1.25;
   }

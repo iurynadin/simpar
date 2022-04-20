@@ -16,7 +16,9 @@ class HeaderElement extends HTMLElement {
                                     <span aria-hidden="true"></span>
                                 </a>
 
-                                <img src="svgs/logo-header.svg" class="ml-12 sm:ml-32 md:ml-0 w-[121px]" alt="">
+                                <a href="index.html">
+                                    <img src="svgs/logo-header.svg" class="ml-12 sm:ml-32 md:ml-0 w-[121px]" alt="">
+                                </a>
 
                                 <span class="hidden md:block md:visible font-montserrat text-xs text-azul font-thin">Relatório Anual de Sustentabilidade <span class="text-azul-light font-semibold">2021</span></span>
                             </div>
@@ -76,47 +78,26 @@ class HeaderElement extends HTMLElement {
 
                             <ul>
                                 <li>
-                                    <a href="#" class="group">Sobre este relatório</a>
+                                    <a href="#">Sobre este relatório</a>
                                 </li>
                                 <li>
-                                    <a href="mensagem-da-lideranca.html" class="group">Mensagem da Liderança</a>
+                                    <a href="mensagem-da-lideranca.html">Palavra da Liderança</a>
                                 </li>
                                 <li>
-                                    <a href="portfolio-de-negocios.html" class="group">Portifólio de negócios</a>
+                                    <a href="portfolio-de-negocios.html">Portifólio de negócios</a>
                                 </li>
                                 <li>
-                                    <a href="perfil-simpar.html" class="group">
-                                        Perfil SIMPAR
-                                        <span>Empresas controladas/ aquisições</span>
-                                    </a>
+                                    <a href="valorizacao-nossa-gente.html">Valorização de nossa gente</a> </li>
+                                <li>
+                                    <a href="destaques-e-compromissos.html">Destaques e Compromissos</a>
                                 </li>
                                 <li>
-                                    <a href="destaques-e-compromissos.html" class="group">
-                                        Destaques e Compromissos
-                                        <span>Breve texto introdutório e solução gráfica para realizações  e metas/compromissos públicos ESG/destaques socioambientais</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="foco-na-transparencia.html" class="group">
-                                        Foco na transparência
-                                        <span>Governança/Programa de Conformidade</span>
-                                    </a>
-                                </li>
+                                    <a href="foco-na-transparencia.html"> Foco na transparência </a> </li>
                             </ul>
 
                             <ul>
-                                <li>
-                                    <a href="mudancas-climaticas.html" class="group">
-                                        Mudanças climáticas
-                                        <span>Destaque para descarbonização</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="investimentos-e-desempenho.html" class="group">
-                                        Investimentos e desempenho
-                                        <span>Breve texto introdutório e solução gráfica com números</span>
-                                    </a>
-                                </li>
+                                <li><a href="mudancas-climaticas.html"> Mudanças climáticas </a> </li>
+                                <li><a href="investimentos-e-desempenho.html"> Investimentos e desempenho </a> </li>
                                 <li><a href="materialidade.html">Materialidade</a></li>
                                 <li><a href="">Sumários GRI - SASB - TCFD</a></li>
                                 <li><a href="">Outros Indicadores</a></li>

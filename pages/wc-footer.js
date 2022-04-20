@@ -9,7 +9,7 @@ class FooterElement extends HTMLElement {
         const reportLink = (this.getAttribute('lang')) ? '#' : '#';
         const desempenhoLink = (this.getAttribute('lang')) ? 'investimentos-e-desempenho-en.html' : 'investimentos-e-desempenho.html';
         const desempenhoLabel = (this.getAttribute('lang')) ? 'Read More' : 'Saiba Mais';
-        const desempenhoTitle = (this.getAttribute('lang')) ? 'Performance' : 'Desempenho';
+        const desempenhoTitle = (this.getAttribute('lang')) ? 'Investments<br>and Performance' : 'Investimento<br>e desempenho';
         const desempenhoExcerpt = (this.getAttribute('lang')) ? 'Predictable and robust sustainable growth set the tone at SIMPAR in 2021' : 'Crescimento sustentável, com previsibilidade e solidez, ditou os rumos de 2021 na SIMPAR';
 
         if(this.getAttribute('template') == 'interna') {
@@ -51,7 +51,7 @@ class FooterElement extends HTMLElement {
                 <footer class="relative w-full">
                     <div class="container">
                         <img src="svgs/ico-desempenho.svg" class="md:w-[102px] lg:w-[142px] ml-[59px]" alt="Icone desempenho 2021">
-                        <h3 class="text-azul-light font-lato text-5xl md:text-[50px] lg:text-[68px] font-bold leading-none mb-8">${desempenhoTitle}<span class="block text-white">2021</span></h3>
+                        <h3 class="text-azul-light font-lato text-5xl md:text-[50px] lg:text-[58px] font-bold leading-none mb-8">${desempenhoTitle}</h3>
                         
                         <p class="text-white text-xl font-light w-full sm:w-[352px]">${desempenhoExcerpt}</p>
     

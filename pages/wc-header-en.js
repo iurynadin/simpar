@@ -17,7 +17,9 @@ class HeaderElement extends HTMLElement {
                                     <span aria-hidden="true"></span>
                                 </a>
 
-                                <img src="svgs/logo-header.svg" class="ml-12 sm:ml-32 md:ml-0 w-[121px]" alt="">
+                                <a href="index-en.html">
+                                    <img src="svgs/logo-header.svg" class="ml-12 sm:ml-32 md:ml-0 w-[121px]" alt="">
+                                </a>
 
                                 <span class="hidden md:block md:visible font-montserrat text-xs text-azul font-thin">Integrated Annual Report <span class="text-azul-light font-semibold">2021</span></span>
                             </div>
@@ -77,46 +79,24 @@ class HeaderElement extends HTMLElement {
 
                             <ul>
                                 <li>
-                                    <a href="#" class="group">Sobre este relatório</a>
+                                    <a href="#">Sobre este relatório</a>
                                 </li>
                                 <li>
-                                    <a href="mensagem-da-lideranca-en.html" class="group">A word from our leadership</a>
+                                    <a href="mensagem-da-lideranca-en.html">A word from our leadership</a>
                                 </li>
                                 <li>
-                                    <a href="portfolio-de-negocios-en.html" class="group">Business portfolio</a>
+                                    <a href="portfolio-de-negocios-en.html">Business portfolio</a>
                                 </li>
                                 <li>
-                                    <a href="perfil-simpar-en.html" class="group">
-                                        Valuing our people
-                                    </a>
+                                    <a href="valorizacao-nossa-gente-en.html">Valuing our people</a>
                                 </li>
-                                <li>
-                                    <a href="destaques-e-compromissos-en.html" class="group">
-                                    2021 at a glance
-                                        <span>A summary of leading developments for our priority ESG topics</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="foco-na-transparencia-en.html" class="group">
-                                        Focus on transparency
-                                        <span>Governança/Programa de Conformidade</span>
-                                    </a>
-                                </li>
+                                <li> <a href="destaques-e-compromissos-en.html"> 2021 at a glance </a> </li>
+                                <li> <a href="foco-na-transparencia-en.html"> Focus on transparency </a> </li>
                             </ul>
 
                             <ul>
-                                <li>
-                                    <a href="mudancas-climaticas-en.html" class="group">
-                                        Climate change
-                                        <span>Destaque para descarbonização</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="investimentos-e-desempenho-en.html" class="group">
-                                        Investments and performance
-                                        <span>Breve texto introdutório e solução gráfica com números</span>
-                                    </a>
-                                </li>
+                                <li> <a href="mudancas-climaticas-en.html"> Climate change </a> </li>
+                                <li> <a href="investimentos-e-desempenho-en.html"> Investments and performance </a> </li>
                                 <li><a href="materialidade-en.html">Materiality</a></li>
                                 <li><a href="">GRI | SASB | TCFD  Content Index</a></li>
                                 <li><a href="">Outros Indicadores</a></li>
