@@ -47,8 +47,11 @@ module.exports = {
                 navRight: "url('../svgs/topnav-right.svg')",
                 secondaryPath: "url('../svgs/path-secondary.svg')",
                 desempenho: "url('../images/desempenho.png')",
-                destaques: "url('../images/destaques.jpg')",
+                destaques: "url('../images/hero-destaques.jpg')",
                 mudancasclimaticas: "url('../images/mudancas-climaticas.jpg')",
+                mensagemlideranca: "url('../images/hero-lideranca.jpg')",
+                portfolio: "url('../images/hero-portfolio.jpg')",
+                investimentos: "url('../images/hero-investimentos.jpg')",
 
                 heroInternPath: "url('../svgs/bg-interna-path.svg')",
                 metaItemPath: "url('../svgs/path-meta.svg')",
