@@ -6,7 +6,7 @@ class FooterElement extends HTMLElement {
 
         const backText = (this.getAttribute('lang')) ? 'Back to top' : 'Voltar ao topo';
         const reportText = (this.getAttribute('lang')) ? 'Integrated Annual Report' : 'Relatório Anual Integrado';
-        const reportLink = (this.getAttribute('lang')) ? '#' : '#';
+        const reportLink = (this.getAttribute('lang')) ? '#' : 'pdfs/Simpar_RS2021_1.pdf';
         const desempenhoLink = (this.getAttribute('lang')) ? 'investimentos-e-desempenho-en.html' : 'investimentos-e-desempenho.html';
         const desempenhoLabel = (this.getAttribute('lang')) ? 'Read More' : 'Saiba Mais';
         const desempenhoTitle = (this.getAttribute('lang')) ? 'Investments<br>and Performance' : 'Investimento<br>e desempenho';
@@ -20,7 +20,7 @@ class FooterElement extends HTMLElement {
 
                         <div class="container flex flex-row flex-wrap sm:flex-nowrap justify-between items-center">
                             <div class="flex flex-row items-center justify-start mb-6 sm:mb-0 gap-7 w-full sm:w-[60px] md:w-[330px] lg:w-auto">
-                                <a href="${reportLink}" class="flex fex-row items-center text-azul hover:text-azul duration-300 transition-all font-montserrat font-medium text-[15px] gap-[5px]">
+                                <a href="${reportLink}" target="_blank" class="flex fex-row items-center text-azul hover:text-azul duration-300 transition-all font-montserrat font-medium text-[15px] gap-[5px]">
                                     <span>
                                         <svg xmlns="http://www.w3.org/2000/svg" class="w-[15px] fill-azul-light" viewBox="0 0 15.056 15.27">
                                             <path id="ico-download" d="M17.174,14.5v2.863H5.882V14.5H4v2.863A1.9,1.9,0,0,0,5.882,19.27H17.174a1.9,1.9,0,0,0,1.882-1.909V14.5Zm-.941-3.817L14.906,9.335,12.469,11.8V4H10.587v7.8L8.15,9.335,6.823,10.681l4.705,4.772Z" transform="translate(-4 -4)"/>
