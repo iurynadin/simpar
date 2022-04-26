@@ -6,7 +6,7 @@ class FooterElement extends HTMLElement {
 
         const backText = (this.getAttribute('lang')) ? 'Back to top' : 'Voltar ao topo';
         const reportText = (this.getAttribute('lang')) ? 'Integrated Annual Report' : 'Relatório Anual Integrado';
-        const reportLink = (this.getAttribute('lang')) ? '#' : 'pdfs/Simpar_RS2021_1.pdf';
+        const reportLink = (this.getAttribute('lang')) ? 'pdfs/Simpar_RS2021_en.pdf' : 'pdfs/Simpar_RS2021_1.pdf';
         const desempenhoLink = (this.getAttribute('lang')) ? 'investimentos-e-desempenho-en.html' : 'investimentos-e-desempenho.html';
         const desempenhoLabel = (this.getAttribute('lang')) ? 'Read More' : 'Saiba Mais';
         const desempenhoTitle = (this.getAttribute('lang')) ? 'Investments<br>and Performance' : 'Investimento<br>e desempenho';

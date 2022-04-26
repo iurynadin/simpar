@@ -4,10 +4,23 @@ class HeaderElement extends HTMLElement {
     }
     /* <div class="bpvisor"><p></p></div> */
 
-    // <li><a href="">Sumários GRI - SASB - TCFD</a></li>
-    // <li><a href="">Outros Indicadores</a></li>
-    // <li><a href="">Carta de Asseguração</a></li>
-    // <li><a href="">Expediente</a></li>
+    // <a href="#" class="audio-btn flex fex-row items-center text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
+    //     <span>
+    //         <img src="svgs/ico-audio.svg" class="w-[16px] audio-icon " alt="">
+    //         <img src="svgs/ico-pause.svg" class="w-[16px] h-[15px] audio-pause hidden" alt="">
+    //     </span>
+    //     Áudio
+    // </a>
+    // <audio id="audio" src="audios/roteiro-pt.mp3"></audio>
+
+
+    // <a href="#" target="_blank" class="flex fex-row items-center text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px] audio-btn">
+    //                                     <span>
+    //                                         <img src="svgs/ico-audio.svg" class="w-[16px] audio-icon " alt="">
+    //                                         <img src="svgs/ico-pause.svg" class="w-[16px] h-[15px] audio-pause hidden" alt="">
+    //                                     </span>
+    //                                     Áudio
+    //                                 </a>
     connectedCallback() {
         this.innerHTML = `
             <header id="topo">
@@ -22,7 +35,7 @@ class HeaderElement extends HTMLElement {
                                 </a>
 
                                 <a href="index.html">
-                                    <img src="svgs/logo-header.svg" class="ml-12 sm:ml-32 md:ml-0 w-[121px]" alt="">
+                                    <img src="svgs/logo-header.svg" class="ml-[28px] sm:ml-32 md:ml-0 w-[121px]" alt="">
                                 </a>
 
                                 <span class="hidden md:block md:visible font-montserrat text-xs text-azul font-thin">Relatório Anual Integrado <span class="text-azul-light font-semibold">2021</span></span>
@@ -42,10 +55,12 @@ class HeaderElement extends HTMLElement {
                                     <a href="index.html" class="text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px]">PT</a>
                                 </div>
 
-                                <a href="audios/roteiro-pt.wav" target="_blank" class="flex fex-row items-center text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
-                                    <span><img src="svgs/ico-audio.svg" class="w-[16px]" alt=""></span>
-                                    Áudio
-                                </a>
+                                
+
+
+
+
+
                             </div>
                         </nav>
                     </div>
@@ -58,7 +73,7 @@ class HeaderElement extends HTMLElement {
 
                         <nav>
                             <div class="flex flex-col items-center text-center w-full sm:hidden">
-                                <h3 class="font-light text-[21px] leading-none"><span class="text-white">Relatório Anual de<br>Sustentabilidade</span> <span class="font-bold text-azul-light">2021</span></h3>
+                                <h3 class="font-light text-[21px] leading-none"><span class="text-white">Relatório Anual Integrado</span> <span class="font-bold text-azul-light">2021</span></h3>
 
                                 <div class="flex-row items-center justify-end gap-12 flex my-6">
                                     <a href="pdfs/Simpar_RS2021_1.pdf" target="_blank" class="flex fex-row items-center text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
@@ -74,10 +89,14 @@ class HeaderElement extends HTMLElement {
                                         <a href="index.html" class="text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px]">PT</a>
                                     </div>
 
-                                    <a href="audios/roteiro-pt.wav" target="_blank" class="flex fex-row items-center text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
-                                        <span><img src="svgs/ico-audio.svg" class="w-[16px]" alt=""></span>
-                                        Áudio
-                                    </a>
+                                    
+
+
+
+
+
+
+
                                 </div>
                             </div>
 

@@ -31,6 +31,21 @@
                 );
         }
     );
+
+    var playing = false;
+    $(".audio-btn").click(function(e) {
+		var x = document.getElementById("audio");
+		playing = !playing;
+        $(".audio-pause").toggleClass("hidden");
+        $(".audio-icon").toggleClass("hidden");
+		if(playing){
+			x.play();
+		}else{
+			x.pause();
+		}
+        e.preventDefault();
+	});
+
 })(jQuery);
 
 function init() {
