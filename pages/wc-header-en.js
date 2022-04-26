@@ -4,23 +4,6 @@ class HeaderElement extends HTMLElement {
     }
     // <div class="bpvisor"><p></p></div>
 
-    // <a href="#" target="_blank" class="flex fex-row items-center text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px] audio-btn">
-    //                                 <span>
-    //                                     <img src="svgs/ico-audio.svg" class="w-[16px] audio-icon " alt="">
-    //                                     <img src="svgs/ico-pause.svg" class="w-[16px] h-[15px] audio-pause hidden" alt="">
-    //                                 </span>
-    //                                 Audio
-    //                             </a>
-
-
-    // <a href="#" class="audio-btn flex fex-row items-center text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
-    //                                     <span>
-    //                                         <img src="svgs/ico-audio.svg" class="w-[16px] audio-icon " alt="">
-    //                                         <img src="svgs/ico-pause.svg" class="w-[16px] h-[15px] audio-pause hidden" alt="">
-    //                                     </span>
-    //                                     Audio
-    //                                 </a>
-    //                                 <audio id="audio" src="audios/roteiro-en.mp3"></audio>
     connectedCallback() {
         this.innerHTML = `
             
@@ -56,8 +39,13 @@ class HeaderElement extends HTMLElement {
                                     <a href="index.html" class="text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px]">PT</a>
                                 </div>
 
-                                
-
+                                <a href="#" target="_blank" class="flex fex-row items-center text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px] audio-btn">
+                                    <span>
+                                        <img src="svgs/ico-audio.svg" class="w-[16px] audio-icon " alt="">
+                                        <img src="svgs/ico-pause.svg" class="w-[16px] h-[15px] audio-pause hidden" alt="">
+                                    </span>
+                                    Audio
+                                </a>
 
                             </div>
                         </nav>
@@ -87,10 +75,14 @@ class HeaderElement extends HTMLElement {
                                         <a href="index.html" class="text-white hover:text-azul-light duration-300 transition-all font-montserrat text-[15px]">PT</a>
                                     </div>
 
-                                    
-
-
-
+                                    <a href="#" class="audio-btn flex fex-row items-center text-azul hover:text-azul-light duration-300 transition-all font-montserrat text-[15px] gap-[5px]">
+                                        <span>
+                                            <img src="svgs/ico-audio.svg" class="w-[16px] audio-icon " alt="">
+                                            <img src="svgs/ico-pause.svg" class="w-[16px] h-[15px] audio-pause hidden" alt="">
+                                        </span>
+                                        Audio
+                                    </a>
+                                    <audio id="audio" src="audios/roteiro-en.mp3"></audio>
 
                                 </div>
                             </div>
